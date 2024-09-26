@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <a href="#home" class="logo">
+            <img src="resources/log1.png" alt="Charles' Brand ideas">
+        </a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#catalogue">Catalogue</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        </nav>
+    </header>
+
+    <!-- Cover Page -->
+    <div class="cover-page" id="home">
+        <img src="resources/log2.png" alt="Charles' Brand Ideas Logo">
+        <h1>Charles' Brand Ideas</h1>
+        <h2>Giving Life To New Ideas</h2>
+    </div>
+
+    <main>
+        <div class="content" id="about">
+          <h1>My Services & Prices</h1>
+          <p>
+            Welcome to Charles' Brand Ideas, where creativity meets functionality in our diverse range
+             of services designed to elevate your brand. We specialize in web design, development,
+              graphic design, and management services, each tailored to meet your unique needs and aspirations.
+               Our packages offer flexibility and value, ensuring you receive the best solutions to enhance
+                your online presence. Located at the intersection of innovation and artistry,
+                Charles' Brand Ideas is your go-to destination for comprehensive branding solutions
+                 that resonate with your audience and drive results.
+          </p>
+          <a href="#catalogue">
+            <button class="btn">Explore More</button>
+        </a>
+        </div>
+  
+        <div class="stack">
+          <div class="card">
+            <img
+              src="resources/1.png"
+              alt="" />
+          </div>
+          <div class="card">
+            <img
+              src="resources/2.png"
+              alt="" />
+          </div>
+          <div class="card">
+            <img
+              src="resources/3.png"
+              alt="" />
+          </div>
+          <div class="card">
+            <img
+              src="resources/4.png"
+              alt="" />
+          </div>
+          <div class="card">
+            <img
+              src="resources/5.png"
+              alt="" />
+          </div>
+          <div class="card">
+            <img
+              src="resources/6.png"
+              alt="" />
+          </div>
+          <div class="card"></div>
+            <img
+              src="resources/7.png"
+              alt="" />
+          </div>
+        </div>
+    </main>
+
+    <!-- Catalogue Content -->
+    <div class="catalogue" id="catalogue">
+        <h2>Graphic/Website Design & Development Services Catalogue</h2>
+
+        <!-- Print Design Services -->
+        <div class="service-category">
+            <h3>Print Design Services</h3>
+
+            <!-- Business Card Design -->
+            <div class="service">
+                <h4>Business Card Design</h4>
+                <div class="package">
+                    <p><span class="price">Basic Package: KSh 5,000</span></p>
+                    <p class="details">Single-sided design, 1 revision round, Final files in print-ready formats (PDF, PNG)</p>
+                </div>
+                <div class="package">
+                    <p><span class="price">Standard Package: KSh 10,000</span></p>
+                    <p class="details">Double-sided layout, 2 revision rounds, Final files in print-ready formats (PDF, AI, PNG)</p>
+                </div>
+                <div class="package">
+                    <p><span class="price">Premium Package: KSh 15,000</span></p>
+                    <p class="details">Double-sided layout with advanced design elements, 3 revision rounds, Final files in print-ready and editable formats (PDF, AI, PSD, PNG)</p>
+                </div>
+            </div>
+
+            <!-- Brochure Design -->
+            <div class="service">
+                <h4>Brochure Design</h4>
+                <div class="package">
+                    <p><span class="price">Basic Package: KSh 15,000</span></p>
+                    <p class="details">Bi-fold brochure design, 1 revision round, Final files in print-ready formats (PDF, PNG)</p>
+                </div>
+                <div class="package">
+                    <p><span class="price">Standard Package: KSh 20,000</span></p>
+                    <p class="details">Tri-fold brochure design, 2 revision rounds, Final files in print-ready formats (PDF, AI)</p>
+                </div>
+                <div class="package">
+                    <p><span class="price">Premium Package: KSh 30,000</span></p>
+                    <p class="details">Multi-page brochure design (up to 8 pages), 3 revision rounds, Final files in print-ready and editable formats (PDF, AI, PSD)</p>
+                </div>
+            </div>
+
+            <!-- Flyer Design -->
+            <div class="service">
+                <h4>Flyer Design</h4>
+                <div class="package">
+                    <p><span class="price">Basic Package: KSh 5,000</span></p>
+                    <p class="details">Single-sided flyer design, 1 revision round, Final files in print-ready formats (PDF, PNG)</p>
+                </div>
+                <div class="package">
+                    <p><span class="price">Standard Package: KSh 10,000</span></p>
+                    <p class="details">Double-sided flyer design, 2 revision rounds, Final files in print-ready formats (PDF, AI)</p>
+                </div>
+                <div class="package">
+                    <p><span class="price">Premium Package: KSh 15,000</span></p>
+                    <p class="details">Custom layout with advanced graphic elements, 3 revision rounds, Final files in print-ready and editable formats (PDF, AI, PSD)</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Promotional Materials Design -->
+        <div class="service-category">
+            <h3>Promotional Materials Design</h3>
+            <!-- Banner Design -->
+            <div class="service">
+                <h4>Banner Design</h4>
+                <div class="package">
+                    <p><span class="price">Basic Package: KSh 10,000</span></p>
+                    <p class="details">Standard-size banner (up to 4ft), 1 revision round, Final files in high-resolution (PDF, PNG)</p>
+                </div>
+                <div class="package">
+                    <p><span class="price">Standard Package: KSh 15,000</span></p>
+                    <p class="details">Large-size banner (up to 8ft), 2 revision rounds, Final files in high-resolution (PDF, AI)</p>
+                </div>
+                <div class="package">
+                    <p><span class="price">Premium Package: KSh 20,000</span></p>
+                    <p class="details">Custom-size banner with advanced graphic elements, 3 revision rounds, Final files in high-resolution and editable formats (PDF, AI, PSD)</p>
+                </div>
+            </div>
+            
+            <!-- Poster Design -->
+            <div class="service">
+                <h4>Poster Design</h4>
+                <div class="package">
+                    <p><span class="price">Basic Package: KSh 8,000</span></p>
+                    <p class="details">Standard poster design (up to A4 size), 1 revision round, Final files in print-ready formats (PDF, PNG)</p>
+                </div>
+                <div class="package">
+                    <p><span class="price">Standard Package: KSh 12,000</span></p>
+                    <p class="details">Large poster design (up to A3 size), 2 revision rounds, Final files in print-ready formats (PDF, AI)</p>
+                </div>
+                <div class="package">
+                    <p><span class="price">Premium Package: KSh 16,000</span></p>
+                    <p class="details">Custom-size poster with advanced graphic elements, 3 revision rounds, Final files in print-ready and editable formats (PDF, AI, PSD)</p>
+                </div>
+            </div>
+        </div>
+
+                <!-- Digital Design Services -->
+                <div class="service-category">
+                    <h3>Digital Design Services</h3>
+                    
+                    <!-- Social Media Graphics -->
+                    <div class="service">
+                        <h4>Social Media Graphics</h4>
+                        <div class="package">
+                            <p><span class="price">Basic Package: KSh 5,000</span></p>
+                            <p class="details">1 custom graphic per platform (Facebook, Instagram), 1 revision round, Final files in web-ready formats (PNG, JPG)</p>
+                        </div>
+                        <div class="package">
+                            <p><span class="price">Standard Package: KSh 10,000</span></p>
+                            <p class="details">Set of 5 graphics for multiple platforms, 2 revision rounds, Final files in web-ready formats (PNG, JPG)</p>
+                        </div>
+                        <div class="package">
+                            <p><span class="price">Premium Package: KSh 15,000</span></p>
+                            <p class="details">Complete social media kit (15 graphics), 3 revision rounds, Final files in web-ready and editable formats (PNG, JPG, PSD)</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Email Newsletter Design -->
+                    <div class="service">
+                        <h4>Email Newsletter Design</h4>
+                        <div class="package">
+                            <p><span class="price">Basic Package: KSh 8,000</span></p>
+                            <p class="details">Single email template design, 1 revision round, Final files in HTML format</p>
+                        </div>
+                        <div class="package">
+                            <p><span class="price">Standard Package: KSh 12,000</span></p>
+                            <p class="details">Multi-section newsletter template, 2 revision rounds, Final files in HTML and editable formats</p>
+                        </div>
+                        <div class="package">
+                            <p><span class="price">Premium Package: KSh 18,000</span></p>
+                            <p class="details">Fully responsive email newsletter template, 3 revision rounds, Final files in HTML and editable formats</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Branding Services -->
+                <div class="service-category">
+                    <h3>Branding Services</h3>
+                    
+                    <!-- Logo Design -->
+                    <div class="service">
+                        <h4>Logo Design</h4>
+                        <div class="package">
+                            <p><span class="price">Basic Package: KSh 10,000</span></p>
+                            <p class="details">1 logo concept, 1 revision round, Final files in print-ready formats (PDF, PNG)</p>
+                        </div>
+                        <div class="package">
+                            <p><span class="price">Standard Package: KSh 15,000</span></p>
+                            <p class="details">2 logo concepts, 2 revision rounds, Final files in print-ready and editable formats (PDF, AI)</p>
+                        </div>
+                        <div class="package">
+                            <p><span class="price">Premium Package: KSh 25,000</span></p>
+                            <p class="details">3 logo concepts, unlimited revisions, Final files in multiple formats (PDF, AI, SVG, PNG)</p>
+                        </div>
+                    </div>
+        
+                    <!-- Brand Style Guide -->
+                    <div class="service">
+                        <h4>Brand Style Guide</h4>
+                        <div class="package">
+                            <p><span class="price">Basic Package: KSh 12,000</span></p>
+                            <p class="details">Basic brand style guide including logo usage and color palette, Final files in PDF format</p>
+                        </div>
+                        <div class="package">
+                            <p><span class="price">Standard Package: KSh 18,000</span></p>
+                            <p class="details">Comprehensive brand style guide including typography, logo usage, color palette, and imagery, Final files in PDF format</p>
+                        </div>
+                        <div class="package">
+                            <p><span class="price">Premium Package: KSh 30,000</span></p>
+                            <p class="details">Detailed brand style guide including application examples, unlimited revisions, Final files in PDF format</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Illustration Services -->
+                <div class="service-category">
+                    <h3>Illustration Services</h3>
+                    
+                    <!-- Custom Illustrations -->
+                    <div class="service">
+                        <h4>Custom Illustrations</h4>
+                        <div class="package">
+                            <p><span class="price">Basic Package: KSh 8,000</span></p>
+                            <p class="details">1 custom illustration, 1 revision round, Final files in high-resolution formats (PNG, JPG)</p>
+                        </div>
+                        <div class="package">
+                            <p><span class="price">Standard Package: KSh 15,000</span></p>
+                            <p class="details">2 custom illustrations, 2 revision rounds, Final files in high-resolution formats (PNG, AI)</p>
+                        </div>
+                        <div class="package">
+                            <p><span class="price">Premium Package: KSh 25,000</span></p>
+                            <p class="details">Set of 5 custom illustrations, unlimited revisions, Final files in multiple formats (PNG, AI, PSD)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        <!-- Web Design Services -->
+<div class="service-category">
+    <h3>Web Design Services</h3>
+    
+    <!-- Basic Package -->
+    <div class="service">
+        <h4>Basic Package</h4>
+        <div class="package">
+            <p><span class="price">Price: KSh 25,000</span></p>
+            <p class="details">Custom website design (up to 5 pages), Responsive design for mobile and tablet, Basic SEO optimization, Contact form integration, 1 revision round</p>
+        </div>
+    </div>
+    
+    <!-- Standard Package -->
+    <div class="service">
+        <h4>Standard Package</h4>
+        <div class="package">
+            <p><span class="price">Price: KSh 50,000</span></p>
+            <p class="details">Custom website design (up to 10 pages), Responsive design for mobile, tablet, and desktop, Advanced SEO optimization, Contact form, Google Maps integration, and social media links, 2 revision rounds, Basic analytics setup</p>
+        </div>
+    </div>
+    
+    <!-- Premium Package -->
+    <div class="service">
+        <h4>Premium Package</h4>
+        <div class="package">
+            <p><span class="price">Price: KSh 80,000</span></p>
+            <p class="details">Fully custom website design (unlimited pages), Advanced responsive design with animations, Comprehensive SEO strategy, E-commerce functionality (if applicable), 3 revision rounds, Analytics and tracking setup with reporting</p>
+        </div>
+    </div>
+</div>
+
+<!-- Website Development Services -->
+<div class="service-category">
+    <h3>Website Development Services</h3>
+    
+    <!-- Basic Development Package -->
+    <div class="service">
+        <h4>Basic Development Package</h4>
+        <div class="package">
+            <p><span class="price">Price: KSh 30,000</span></p>
+            <p class="details">Development of a static website (up to 5 pages), Basic CMS integration (e.g., WordPress), Security features implementation, 1 month of support and maintenance</p>
+        </div>
+    </div>
+    
+    <!-- Standard Development Package -->
+    <div class="service">
+        <h4>Standard Development Package</h4>
+        <div class="package">
+            <p><span class="price">Price: KSh 60,000</span></p>
+            <p class="details">Development of a dynamic website (up to 10 pages), Custom CMS integration, User registration and login functionalities, Security features and performance optimization, 3 months of support and maintenance</p>
+        </div>
+    </div>
+    
+    <!-- Premium Development Package -->
+    <div class="service">
+        <h4>Premium Development Package</h4>
+        <div class="package">
+            <p><span class="price">Price: KSh 100,000</span></p>
+            <p class="details">Full-stack web application development (unlimited pages), Custom CMS and advanced features (e.g., forums, memberships), API integrations, Enhanced security measures and performance tuning, 6 months of support and maintenance</p>
+        </div>
+    </div>
+</div>
+
+<!-- Graphic Design Services -->
+<div class="service-category">
+    <h3>Graphic Design Services</h3>
+    
+    <!-- Logo Design -->
+    <div class="service">
+        <h4>Logo Design</h4>
+        <div class="package">
+            <p><span class="price">Price: KSh 15,000</span></p>
+            <p class="details">3 initial logo concepts, 2 revision rounds, Final logo files in multiple formats (AI, PNG, JPG)</p>
+        </div>
+    </div>
+    
+    <!-- Brand Identity Package -->
+    <div class="service">
+        <h4>Brand Identity Package</h4>
+        <div class="package">
+            <p><span class="price">Price: KSh 40,000</span></p>
+            <p class="details">Logo design, Business card design, Letterhead design, Brand guidelines document</p>
+        </div>
+    </div>
+    
+    <!-- Marketing Materials -->
+    <div class="service">
+        <h4>Marketing Materials</h4>
+        <div class="package">
+            <p><span class="price">Starting at KSh 20,000</span></p>
+            <p class="details">Brochure design, Flyer design, Social media graphics, 2 revision rounds per item</p>
+        </div>
+    </div>
+</div>
+
+<!-- Management Services -->
+<div class="service-category">
+    <h3>Management Services</h3>
+    
+    <!-- Website Management Basic -->
+    <div class="service">
+        <h4>Website Management Basic</h4>
+        <div class="package">
+            <p><span class="price">Price: KSh 10,000/month</span></p>
+            <p class="details">Regular updates and backups, Basic SEO monitoring, Security monitoring</p>
+        </div>
+    </div>
+    
+    <!-- Website Management Standard -->
+    <div class="service">
+        <h4>Website Management Standard</h4>
+        <div class="package">
+            <p><span class="price">Price: KSh 20,000/month</span></p>
+            <p class="details">All features from the Basic package, Content updates (up to 5 requests/month), Performance optimization and reporting</p>
+        </div>
+    </div>
+    
+    <!-- Website Management Premium -->
+    <div class="service">
+        <h4>Website Management Premium</h4>
+        <div class="package">
+            <p><span class="price">Price: KSh 35,000/month</span></p>
+            <p class="details">All features from the Standard package, Priority support, Comprehensive analytics reporting and strategy adjustments</p>
+        </div>
+    </div>
+</div>    
+
+    <div class="controls centered">
+        <button id="prevPage">&lt; Previous</button>
+        <button id="nextPage">Next &gt;</button>
+    </div>
+
+<!--Contact Section-->
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="contact-container">
+        <div class="contact-info">
+            <div class="contact-item">
+                <img src="resources/phone.png" alt="Phone Icon" class="contact-icon">
+                <p>+2547-7158-3216</p>
+            </div>
+            <div class="contact-item">
+                <img src="resources/phone.png" alt="Phone Icon" class="contact-icon">
+
+                <p>+2541-1188-9397</p>
+            </div>
+            <div class="contact-item">
+                <img src="resources/email.png" alt="Email Icon" class="contact-icon">
+                <p>edgercharles07@gmail.com</p>
+            </div>
+            <div class="contact-item">
+                <img src="resources/email.png" alt="Email Icon" class="contact-icon">
+                <p>creativecharles254@gmail.com</p>
+            </div>
+            <div class="contact-item">
+                <img src="resources/web.png" alt="Website Icon" class="contact-icon">
+                <p>www.charlesbrandideas.in</p>
+            </div>
+            <div class="contact-item">
+                <img src="resources/loc.png" alt="Location Icon" class="contact-icon">
+                <p>Pipeline, Nairobi, Kenya</p>
+            </div>
+        </div>
+        <div class="social-media">
+            <a href="https://twitter.com/yourprofile" target="_blank"><img src="resources/twitter.png" alt="Twitter Icon" class="social-icon"></a>
+            <a href="https://instagram.com/yourprofile" target="_blank"><img src="resources/instagram.png" alt="Instagram Icon" class="social-icon"></a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank"><img src="resources/linkedin.png" alt="LinkedIn Icon" class="social-icon"></a>
+            <a href="https://tiktok.com/@yourprofile" target="_blank"><img src="resources/tiktok.png" alt="TikTok Icon" class="social-icon"></a>
+            <a href="https://facebook.com/yourprofile" target="_blank"><img src="resources/facebook.png" alt="Facebook Icon" class="social-icon"></a>
+        </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+    <footer id="footer">
+      <p>&copy; 2024 Charles' Brand Ideas. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
